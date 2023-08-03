@@ -22,3 +22,8 @@ body {
     margin-top: 16px;
     display: inline-block;
 }
+
+footer {
+    background-color: black;
+    color: white;
+}
