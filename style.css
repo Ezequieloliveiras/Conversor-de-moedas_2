@@ -1,4 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.conteudo-central {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +20,7 @@ body {
     width: 300px;
     border-radius: 5px;
     text-align: center;
+    padding: 30px;
     border: 1px solid black;
     color: white;
     background-color: rgba(11, 75, 11, 0.959);
@@ -19,11 +32,23 @@ body {
 
 #thisdate {
     padding-left: 5px;
-    margin-top: 16px;
+    margin: 10px 0px 10px 0px;
     display: inline-block;
 }
 
+#date {
+    margin-top: 10px;
+}
+
+#resultado {
+    margin-top: 10px;
+}
+
 footer {
+    width: 100%;
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 5px 0px;
+
 }
