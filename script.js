@@ -22,8 +22,8 @@ botao.addEventListener('click', function () {
             let menuDate = 'Data:'
             let estaData = new Date(dolarReal.create_date)
             
-            document.getElementById('thisdate').innerText = estaData.toLocaleString()
-            document.getElementById('date').innerText = menuDate
+            document.getElementById('esta-data').innerText = estaData.toLocaleString()
+            document.getElementById('data').innerText = menuDate
 
             resultado.textContent = `Resultado: ${resultadoCalculado.toLocaleString('pt-br', {
                 style: 'currency',
